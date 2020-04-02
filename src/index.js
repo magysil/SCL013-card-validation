@@ -1,3 +1,4 @@
+
 let cantNumero = document.getElementById("tdc");
 function solonum(num){
     tecla=num.keyCode;
