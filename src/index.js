@@ -22,15 +22,18 @@ function solonum(num) {
       for (let i = cantidadCaracteres - 1; i >= 0; i--) {
         let ent = parseInt(texto.charAt(i));
         console.log("Entero inicial es " + ent);
-        if (i % 2 == 0) {
-          ent = ent * 2;
-        }
         console.log("El indice es " + i);
-        console.log("Si es par este es el valor del entero " + ent);
-        if (ent > 9) {
-          ent = ent - 9;
+        if (i % 2 == 0) {
+            ent = ent * 2;
+            console.log("Es par el indice, ent * 2 es igual a " + ent);
+
+            if (ent > 9) {
+                console.log("si ent es > que 9 entonces el valor es " + ent);
+                ent = ent - 9;
+                console.log("Ahora ent - 9 es igual a " + ent);
+            }
         }
-        console.log("si es + que 9 en tonces el valor es " + ent);
+
         sum = sum + ent;
         console.log(sum);
       }
