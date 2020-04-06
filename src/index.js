@@ -1,5 +1,6 @@
+import validator from './validator.js';
 // Función que recibe el evento onkeypress de la caja de texto y procesa solo números
-function solonum(num) {
+/*function solonum(num) {
     tecla = num.keyCode;
     if (tecla >= 48 && tecla <= 57) {
       // console.log("numero");
@@ -7,9 +8,9 @@ function solonum(num) {
       //  console.log("Letra invalida");
       return false;
     }
-  }
+  }*/
   //Función que recibe el contenido del cuadro de texto para validar el algoritmo de luhn 
-  function suma_cadena() {
+  /*function suma_cadena() {
     let texto = document.getElementById("tdc").value;
     if (texto == "" || texto.length < 16) {
       alert("El Campo TDC esta incompleto");
@@ -41,24 +42,24 @@ function solonum(num) {
       console.log("El residuo es " + residuo);
       if (residuo == 0) {
         console.log("Tarjeta Valida");
-        mascara();
+        validator.mascara();
       } else {
         console.log("Tarjeta InValida");
-        mascara();
+        validator.mascara();
       }
 
     }
-  }
+  }*/
 //Función que enmascara los primeros 12 caracteres en "#" y conserva los 4 ultimos
-function mascara(){
+/*function mascara(){
   
     let texto = document.getElementById("tdc").value;
     let mascara = "############"+ texto.substring(12);
     console.log("Este es el numero de tarjeta enmascarada "+ mascara);
     //document.write("Tu numero de tarjeta de credito termina en " + mascara);  
-}
+} */
 
 
-// import validator from './validator.js';
+ 
 
-// console.log(validator);
+document.getElementById("validar").addEventListener("click", validator.isValid, false);
