@@ -41,9 +41,24 @@ function solonum(num) {
       console.log("El residuo es " + residuo);
       if (residuo == 0) {
         console.log("Tarjeta Valida");
-      } else console.log("Tarjeta InValida");
+        mascara();
+      } else {
+        console.log("Tarjeta InValida");
+        mascara();
+      }
+
     }
   }
+//Función que enmascara los primeros 12 caracteres en "#" y conserva los 4 ultimos
+function mascara(){
+  
+    let texto = document.getElementById("tdc").value;
+    let mascara = "############"+ texto.substring(12);
+    console.log("Este es el numero de tarjeta enmascarada "+ mascara);
+    //document.write("Tu numero de tarjeta de credito termina en " + mascara);  
+}
+
+
 // import validator from './validator.js';
 
 // console.log(validator);
