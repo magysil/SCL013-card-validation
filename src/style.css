@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.contenedor{
+    
+     padding:20px; 
+    text-align: center;
+}
+
+body{
+background-color: darkgray;
+}
+
+p{
+    font-family: "Trebuchet MS", Geneva, Arial, Helvetica, sans-serif;
+    margin: 20px;
+}
+.formulario {
+    padding: 20px;
+    background-color:darkgray;
+    margin: 20px;
+}
+.formulario input{
+    width: 300px;
+    padding: 10px;
+    border-color: crimson;
+    margin-bottom: 15px ;
+    font-size: 16px;
+    border-radius: 15px 15px 15px 15px;
+    -moz-border-radius: 15px 15px 15px 15px;
+    -webkit-border-radius: 15px 15px 15px 15px;
+    border: solid;
+}
+
+input{
+    width: 150px;
+    padding: 10px;
+    border-color: crimson;
+    margin-bottom: 15px ;
+    font-size: 13px;
+    border: solid;
+}
+
+.cabecera{
+    width: 90%;
+    margin: auto;
+}
+
+header{
+padding: 30px 0;
+}
+
+ nav{
+    padding-top:10px ;
+ }
+ nav a {
+    margin-left: 15px;
+    font-size: 15px;
+ }
+
+header nav a{
+    
+    text-decoration: none;
+    color: white;
+}
+
+header nav a:hover{
+    color: tomato;
+}
+header nav a:active{
+color: thistle;
+}
+
+header .cabecera{
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+
+}
+

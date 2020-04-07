@@ -6,14 +6,35 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <header></header>
-    <main>
-      <form id="formulario">
-        <input type=text id="tdc" onkeypress="return solonum(event)" maxlength="16" />
+    <header class="header">
+      <div class="cabecera">
+          <h1 class="logo">TuTvFlix</h1>
+        <nav>
+          <a class="Inicio"  href="#"> Inicio</a>
+          <a class="Peliculas"  href="#"> Peliculas</a>
+          <a class="Estrenos"  href="#"> Estrenos</a>
+          <a class="Suscripcion"  href="#"> Suscripcion</a>
+        </nav>
+      </div>
+    </header>
+    <main class="main">
+        <div class="contenedor" >
+        <form id="formulario" class="formulario">
+          <p>Por favor ingrese sus datos</p>
+          <input type="text"  placeholder="Nombre"/><br>         
+          <input type="text"  placeholder="Apellido"/><br> 
+         <input type= "numero"  placeholder= "Número de Tarjeta" id="tdc"  maxlength="16"/><br>
+         <input type="text" placeholder="Fecha de Vencimiento"/><br>
+         <input type="text" placeholder="CVC"/><br>
       </form>
-      <input type="button" value="Validar" onclick="suma_cadena();" />
+          <input type="button" value="Validar" onclick="isvalid();" />
+     </div>
     </main>
-    <footer></footer>
-    <script src="index.js" ></script>
+    <footer>
+      <div class="footer">
+        <p> Copyright © Todos los derechos reservados</p>
+      </div>
+    </footer>
+    <script src="index.js" type="module"></script>
   </body>
 </html>
