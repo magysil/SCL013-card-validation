@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /*Reinicia a cero todos los margenes del documento*/
 * {
   margin: 0;
@@ -131,3 +132,13 @@ footer {
   padding: 20px;
   text-align: right;
 }
+=======
+body {
+background: rgba(255, 255, 255, 0.979);
+  font-size:30px;
+  justify-content: center;
+  text-align: center
+
+}
+
+>>>>>>> a66defb44f58572f689d1444b1ac1ea6a837a774
