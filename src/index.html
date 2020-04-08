@@ -9,11 +9,20 @@
     <header></header>
     <main>
       <form id="formulario">
-        <input type=text id="tdc" onkeypress="return solonum(event)" maxlength="16" />
-        <input type="button" value="Validar" onclick="suma_cadena();" />
+        <div id= "bienvenido">
+        <p>¡Bienvenidos a tu servicio de Streaming!</p>
+        <input type="button"  id="botonenviar" value="Iniciar Suscripción" />
+        <div class="caja"></div>
+        </div>
+
+        <div id= "validacion">
+          <input type="number" id="tdc" maxlength="16" />
+          <input type="button" value="Validar" id="validar"/>
+        </div>
       </form>
     </main>
     <footer></footer>
-    <script src="index.js" ></script>
+    <script src="index.js" type="module"></script>
   </body>
 </html>
+    
