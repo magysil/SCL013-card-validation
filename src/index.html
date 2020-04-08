@@ -1,28 +1,48 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>Tarjeta de crédito válida</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <header></header>
-    <main>
-      <form id="formulario">
-        <div id= "bienvenido">
-        <p>¡Bienvenidos a tu servicio de Streaming!</p>
-        <input type="button"  id="botonenviar" value="Iniciar Suscripción" />
-        <div class="caja"></div>
-        </div>
+<head>
+  <meta charset="utf-8">
+  <title>Tarjeta de crédito válida</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
 
-        <div id= "validacion">
-          <input type="number" id="tdc" maxlength="16"/>
-          <input type="button" value="Validar" id="validar"/>
-        </div>
+<body>
+ 
+  <div id= "bienvenido">
+    <p>¡Bienvenidos a tu servicio de Streaming!</p>
+    <input type="button"  id="botonenviar" value="Iniciar Suscripción" />
+    <div class="caja"></div>
+    </div>
+
+  <header class="header">
+    <div class="cabecera">
+      <h1 class="logo">TUFLIXTV</h1>
+      <nav>
+        <a class="Inicio" href="#"> Iniciar sesión</a>
+      </nav>
+    </div>
+  </header>
+  <main class="main">
+    <div class="contenedor">
+      <form id="formulario" class="formulario">
+        <p class="L1">Configura tu forma de pago.</p>
+        <p class="L2">Tu membresía comienza en cuanto configures el pago.</p>
+        <p class="L3">Cancela online cuando quieras.</p>
+        <input type="text" placeholder="Nombre" /><br>
+        <input type="text" placeholder="Apellido" /><br>
+        <input type="text" placeholder="Número de Tarjeta" id="tdc" maxlength="16" /><br>
+        <input type="text" placeholder="Fecha de Vencimiento" /><br>
+        <input type="text" placeholder="CVC" maxlength="3"  /><br>
       </form>
-    </main>
-    <footer></footer>
-    <script src="index.js" type="module"></script>
-  </body>
+      <input class="btn" type="button" value="Validar" id="validar"/>
+    </div>
+  </main>
+  <footer>
+    <div class="footer">
+      <p> Copyright © Sin derechos reservados - Fines educativos</p>
+    </div>
+  </footer>
+  <script src="index.js" type="module"></script>
+</body>
+
 </html>
-    
