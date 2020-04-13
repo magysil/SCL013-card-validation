@@ -1,17 +1,13 @@
-//import maskify from 'maskify';
-
 const validator = {
 
     maskify : function () {
-  
         let texto = document.getElementById("tdc").value;
         let mascara = "############"+ texto.substring(12);
-        //let mascara = maskify(texto);
         console.log("Este es el numero de tarjeta enmascarada "+ mascara);
-        //document.write("Tu numero de tarjeta de credito termina en " + mascara);  
+        
         return mascara;
-    },
-    
+        },
+
     isValid : function () {
         let texto = document.getElementById("tdc").value;
         if (texto == "" || texto.length < 16) {
@@ -49,7 +45,8 @@ const validator = {
           } else {
             console.log("Tarjeta InValida");
             validator.maskify();
-            return false;
+           alert ("Información incorrecta,intente nuevamente") 
+           return false;
           }
     
         }

@@ -6,22 +6,23 @@
   <link rel="stylesheet" href="style.css" />
 </head>
 <header class="header">
-<div class="cabecera">
-  <h1 class="logo">TUFLIXTV</h1>
-  <nav>
-    <a class="Inicio" href="#"> Iniciar sesión</a>
-  </nav>
-</div>
-<body>
-  <div class= "contenedor1" id= "contenedor1">
-    <p>¡Bienvenidos a tu servicio de Streaming!</p>
-    <input type="button"  class="btn" id="botonenviar" value="Iniciar Suscripción" />
-    <div class="caja"></div>
+  <div class="cabecera">
+    <h1 class="logo">TUFLIXTV</h1>
+    <nav>
+      <a class="Inicio" href="#"> Iniciar sesión</a>
+    </nav>
   </div>
+</header>
+<body>
+    <div class= "contenedor1" id= "contenedor1">
+      <p class= "L4" >¡Bienvenidos a tu servicio de Streaming!</p>
+      <input type="button"  class="btn" id="botonenviar" value="Iniciar Suscripción" />
+      <div class="caja"></div>
+    </div>
 
    
   
-    </header>
+    
     <main class="main">
       <div class= "contenedor2" id="contenedor2">
         <form id="formulario" class="formulario">
@@ -36,21 +37,19 @@
         </form>
         <input class="btn" type="button" value="Validar" id="validar"/>
       </div>
-    </main>
-    <footer>
-      <div class="footer">
-        <p> Copyright © Sin derechos reservados - Fines educativos</p>
-      </div>
-    
+       
       <div class= "contenedor3" id= "contenedor3">
-        <p>¡Tu tarjeta numero xxx fue validad con éxito. Felicidades, ya puedes empezar a disfrutar de nuetro servicio!</p>
-        <input type="button"  class="btn" id="botonenviar" value="Continuar" />
+        <div><label id="mensajeDeTarjeta"></label></div>
+        <div><input type="button"  class="btn" id="botonenvi" value="Continuar" /></div>
         <div class="caja"></div>
       </div>
-    </footer>
 
-  </div>
-  <script src="index.js" type="module"></script>
+    </main>
 </body>
-
+<footer>
+  <div class="footer">
+    <p> Copyright © Sin derechos reservados - Fines educativos</p>
+  </div>    
+</footer>
+  <script src="index.js" type="module"></script>
 </html>

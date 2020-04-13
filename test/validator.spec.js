@@ -11,8 +11,9 @@ describe('validator', () => {
       expect(typeof validator.isValid).toBe('function');
     });
 
-    test.skip('debería retornar true para "4083952015263"', () => {
-      // escribe aquí tu test
+    describe(validator.isValid), () => {
+      test ('debería retornar true para "4083952015263"', () => {
+        expect()
     });
   });
 
