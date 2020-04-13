@@ -1,41 +1,56 @@
 <!DOCTYPE html>
 <html>
+
 <head>
   <meta charset="utf-8">
   <title>Tarjeta de crédito válida</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 
+<header class="header">
+  <div class="cabecera">
+    <img src="../imagen/LogoTransp1.png" alt="" srcset="">
+    <nav>
+      <a class="Inicio" href="#"> Iniciar sesión</a>
+    </nav>
+  </div>
+</header>
+
 <body>
-  <header class="header">
-    <div class="cabecera">
-      <h1 class="logo">TUFLIXTV</h1>
-      <nav>
-        <a class="Inicio" href="#"> Iniciar sesión</a>
-      </nav>
-    </div>
-  </header>
+  <div class="contenedor1" id="contenedor1">
+    <p class="bienvenida">¡Bienvenidos a tu servicio de Streaming!</p>
+    <input type="button" class="btn" id="inicio" value="Iniciar Suscripción" />
+    <div class="caja"></div>
+  </div>
   <main class="main">
-    <div class="contenedor">
+    <div class="contenedor2" id="contenedor2">
       <form id="formulario" class="formulario">
         <p class="L1">Configura tu forma de pago.</p>
         <p class="L2">Tu membresía comienza en cuanto configures el pago.</p>
         <p class="L3">Cancela online cuando quieras.</p>
-        <input type="text" placeholder="Nombre" /><br>
-        <input type="text" placeholder="Apellido" /><br>
-        <input type="number" placeholder="Número de Tarjeta" id="tdc" maxlength="16" /><br>
-        <input type="text" placeholder="Fecha de Vencimiento" /><br>
-        <input type="text" placeholder="CVC" /><br>
+        <input type="text" id="nombre" placeholder="Nombre" maxlength="40" /><br>
+        <input type="text" id="apellido" placeholder="Apellido" maxlength="40" /><br>
+        <input type="text" maxlength="16" id="tdc" placeholder="Número de Tarjeta"
+          onkeypress="return (event.charCode >= 48 && event.charCode <= 57)" /><br>
+        <input type="month" id="fecha" placeholder="Fecha de Vencimiento" value="2020-04" min="2020-04" max="2029-12"
+          step="1" /><br>
+        <input type="text" id="cvc" placeholder="CVC" maxlength="3"
+          onkeypress="return (event.charCode >= 48 && event.charCode <= 57)" /><br>
       </form>
-      <input class="btn" type="button" value="Validar" id="validar"/>
+      <input class="btn1" type="button" value="Validar Suscripción" id="validarTdc" />
+    </div>
+    <div class="contenedor3" id="contenedor3">
+      <div><label id="mensajeDeTarjeta" class="msj"></label></div>
+      <div><input type="button" class="btn" id="retornar" value="Continuar" /></div>
+      <div class="caja"></div>
     </div>
   </main>
-  <footer>
-    <div class="footer">
-      <p> Copyright © Sin derechos reservados - Fines educativos</p>
-    </div>
-  </footer>
-  <script src="index.js" type="module"></script>
 </body>
+<footer>
+  <div class="footer">
+    <p> Copyright © Sin derechos reservados - Fines educativos</p>
+  </div>
+</footer>
+<script src="index.js" type="module"></script>
 
 </html>
