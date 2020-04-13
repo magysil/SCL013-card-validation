@@ -319,14 +319,14 @@ Esta sección está para ayudarte a llevar un control de lo que vas completando.
   el producto.
 * [ ] `README.md` explica claramente cómo el producto soluciona los
   problemas/necesidades de los usuarios.
-* [ ] Usa VanillaJS.
-* [ ] No utiliza `this`.
-* [ ] Implementa `validator.isValid`.
-* [ ] Implementa `validator.maskify`.
+* [X] Usa VanillaJS.
+* [X] No utiliza `this`.
+* [X] Implementa `validator.isValid`.
+* [X] Implementa `validator.maskify`.
 * [ ] Pasa linter con configuración provista.
-* [ ] Pasa pruebas unitarias.
-* [ ] Pruebas unitarias cubren 70% de _statements_, _functions_ y _lines_, y un
+* [X] Pasa pruebas unitarias.
+* [X] Pruebas unitarias cubren 70% de _statements_, _functions_ y _lines_, y un
   mínimo del 50% de _branches_.
-* [ ] Interfaz permite ingresar un número para ser validado.
-* [ ] Interfaz muestra el resultado de la validación correctamente.
-* [ ] Interfaz debe ocultar con (`#`) todos los dígitos con excepción de los últimos cuatro.
+* [X] Interfaz permite ingresar un número para ser validado.
+* [X] Interfaz muestra el resultado de la validación correctamente.
+* [X] Interfaz debe ocultar con (`#`) todos los dígitos con excepción de los últimos cuatro.
