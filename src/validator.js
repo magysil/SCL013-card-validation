@@ -32,7 +32,6 @@ const validator = {
           // console.log("Ahora ent - 9 es igual a " + ent);
         }
       }
-
       sum = sum + ent;
       // console.log(sum);
     }
@@ -49,6 +48,3 @@ const validator = {
   },
 };
 export default validator;
-
-  
- 

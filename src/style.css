@@ -8,6 +8,7 @@
 .contenedor2 {
   padding: 5px;
   text-align: center;
+  
 }
 
 /*Fondo del Cuerpo del sitio*/
@@ -152,10 +153,8 @@ h1 {
 .bienvenida{
   margin-top: 160px;
 }
-
 /*Pie de pagina*/
 footer {
-
   font-size: 15px;
   background-color: #000000;
   padding: 20px;
@@ -180,6 +179,18 @@ footer {
   padding: 10px;
   text-align: center;
 }
+/*Letra de los botones*/
+nav a,
+input .btn {
+  font-family: sans-serif;
+}
+
+.contenedor1,
+.contenedor3 {
+  padding: 10px;
+  text-align: center;
+}
+
 /*Letra de los botones*/
 nav a,
 input .btn {
