@@ -24,7 +24,7 @@ let validacionDeTarjeta = () => {
     document.getElementById("contenedor2").style.display = "none";
     document.getElementById("contenedor3").style.display = "";
     document.getElementById("mensajeDeTarjeta").innerHTML = "¡Tu tarjeta numero " + validator.maskify(creditCardNumber) +
-      " fue validada con éxito. Felicidades, ya puedes empezar a disfrutar de nuetro servicio!";
+      " fue validada con éxito. Felicidades, ya puedes empezar a disfrutar de nuestro servicio!";
     document.getElementById("nombre").value = "";
     document.getElementById("apellido").value = "";
     document.getElementById("tdc").value = "";
