@@ -3,10 +3,8 @@ import validator from "./validator.js";
 //Carga Inicial del Sitio Web
 document.getElementById("contenedor1").style.display = "";
 document.getElementById("contenedor2").style.display = "none";
-document.getElementById("contenedor3").style.display = "none";
-
-
-
+document.getElementById("contenedor3").style.display = "none"
+<
 //Cambio de Pantalla Validar Datos
 let capturar = () => {
   document.getElementById("contenedor1").style.display = "none";
@@ -38,11 +36,6 @@ let validacionDeTarjeta = () => {
 }
 };
 document.getElementById("validarTdc").addEventListener("click", validacionDeTarjeta, false);
-
-
-
-
-
 
 //Retorna al Inicio
 let volverPrincipio = () => {

@@ -45,3 +45,4 @@ En caso de que ser una tarjeta correcta, se arrojará una pantalla donde indique
 ![enter image description here](https://github.com/Luisana1802/SCL013-card-validation/blob/master/imagenes%20prototipo3.png?raw=true)
 **Imagen 4**
 ![enter image description here](https://github.com/Luisana1802/SCL013-card-validation/blob/master/imagenes%20prototipo4.png?raw=true)
+
