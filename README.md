@@ -1,23 +1,29 @@
-Título con el nombre de tu proyecto.
+**Título del proyecto.**
 
-**Validación de Número de tarjeta de crédito para suscripción de servicio de streaming TUTVFLIX**.
+Validación de Número de tarjeta de crédito para suscripción de servicio de streaming TUTVFLIX.
+** **
 
-Resumen de 1 o 2 líneas de qué se trata tu proyecto.
-**El proyecto permite validar los datos de la tarjeta de crédito Visa o MasterCard del cliente con la finalidad de acceder a los beneficios del servicio de streaming de películas.**
+**Resumen del proyecto.**
 
-Imagen final de tu proyecto.
+El proyecto permite validar los datos de la tarjeta de crédito Visa o MasterCard del cliente con la finalidad de acceder a los beneficios del servicio de streaming de películas.
+** **
+
+**Imagen final del proyecto.**
 
 **Imagen 1**
 ![enter image description here](https://github.com/Luisana1802/SCL013-card-validation/blob/master/prototipofinal1.png?raw=true)
+** **
 **Imagen 2**
 ![enter image description here](https://github.com/Luisana1802/SCL013-card-validation/blob/master/prototipofinal2.png?raw=true)
+** **
 **Imagen 3**
 ![enter image description here](https://github.com/Luisana1802/SCL013-card-validation/blob/master/prototipofinal3.png?raw=true)
+** **
 **Imagen 4**
 ![enter image description here](https://github.com/Luisana1802/SCL013-card-validation/blob/master/prototipofinal4.png?raw=true)
+** **
 
-
-Investigación UX:
+**Investigación UX:**
 
 
 **i.-Quiénes son los usuarios y los objetivos en relación con el producto.**
@@ -35,7 +41,7 @@ El producto está dirigido a todos los usuarios que posean una tarjeta de crédi
 **iii. Primer prototipo en papel.**
 
 ![enter image description here](https://github.com/Luisana1802/SCL013-card-validation/blob/master/prototipo%20papel.jpg?raw=true)
- 
+
 **iv. Feedback recibido indicando las mejoras a realizar.**
 
 El equipo de trabajo se planteó realizar 3 pantallas para de demostrar lo fácil que es afiliarse al servicio.
@@ -44,11 +50,20 @@ La primera pantalla dará la bienvenida al usuario donde al pulsar en “Iniciar
 
 **v. Imagen del prototipo final.**
 
+** **
 **Imagen 1**
+** **
 ![enter image description here](https://github.com/Luisana1802/SCL013-card-validation/blob/master/imagenes%20prototipo.png?raw=true)
+** **
 **Imagen 2**
+** **
 ![enter image description here](https://github.com/Luisana1802/SCL013-card-validation/blob/master/imagenes%20prototipo2.png?raw=true)
+** **
 **Imagen 3**
+** **
 ![enter image description here](https://github.com/Luisana1802/SCL013-card-validation/blob/master/imagenes%20prototipo3.png?raw=true)
+** **
 **Imagen 4**
+** **
 ![enter image description here](https://github.com/Luisana1802/SCL013-card-validation/blob/master/imagenes%20prototipo4.png?raw=true)
+** **
