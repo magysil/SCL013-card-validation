@@ -1,14 +1,14 @@
-**Título con el nombre de tu proyecto.**
+**Título del proyecto.**
 
 Validación de Número de tarjeta de crédito para suscripción de servicio de streaming TUTVFLIX.
 ** **
 
-**Resumen de 1 o 2 líneas de qué se trata tu proyecto.**
+**Resumen del proyecto.**
 
 El proyecto permite validar los datos de la tarjeta de crédito Visa o MasterCard del cliente con la finalidad de acceder a los beneficios del servicio de streaming de películas.
 ** **
 
-**Imagen final de tu proyecto.**
+**Imagen final del proyecto.**
 
 **Imagen 1**
 ![enter image description here](https://github.com/Luisana1802/SCL013-card-validation/blob/master/prototipofinal1.png?raw=true)
