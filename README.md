@@ -12,10 +12,13 @@ El proyecto permite validar los datos de la tarjeta de crédito Visa o MasterCar
 
 **Imagen 1**
 ![enter image description here](https://github.com/Luisana1802/SCL013-card-validation/blob/master/prototipofinal1.png?raw=true)
+** **
 **Imagen 2**
 ![enter image description here](https://github.com/Luisana1802/SCL013-card-validation/blob/master/prototipofinal2.png?raw=true)
+** **
 **Imagen 3**
 ![enter image description here](https://github.com/Luisana1802/SCL013-card-validation/blob/master/prototipofinal3.png?raw=true)
+** **
 **Imagen 4**
 ![enter image description here](https://github.com/Luisana1802/SCL013-card-validation/blob/master/prototipofinal4.png?raw=true)
 ** **
@@ -47,15 +50,19 @@ La primera pantalla dará la bienvenida al usuario donde al pulsar en “Iniciar
 
 **v. Imagen del prototipo final.**
 
+** **
 **Imagen 1**
 ** **
 ![enter image description here](https://github.com/Luisana1802/SCL013-card-validation/blob/master/imagenes%20prototipo.png?raw=true)
+** **
 **Imagen 2**
 ** **
 ![enter image description here](https://github.com/Luisana1802/SCL013-card-validation/blob/master/imagenes%20prototipo2.png?raw=true)
+** **
 **Imagen 3**
 ** **
 ![enter image description here](https://github.com/Luisana1802/SCL013-card-validation/blob/master/imagenes%20prototipo3.png?raw=true)
+** **
 **Imagen 4**
 ** **
 ![enter image description here](https://github.com/Luisana1802/SCL013-card-validation/blob/master/imagenes%20prototipo4.png?raw=true)
