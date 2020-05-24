@@ -6,10 +6,6 @@ document.getElementById("contenedor2").style.display = "none";
 document.getElementById("contenedor3").style.display = "none";
 
 
-<<<<<<< HEAD
-
-=======
->>>>>>> 650e32554e5cad8175dc01cb8261a725e2c29f82
 //Cambio de Pantalla Validar Datos
 let capturar = () => {
   document.getElementById("contenedor1").style.display = "none";
@@ -42,22 +38,10 @@ let validacionDeTarjeta = () => {
 };
 document.getElementById("validarTdc").addEventListener("click", validacionDeTarjeta, false);
 
-<<<<<<< HEAD
-=======
-
->>>>>>> 650e32554e5cad8175dc01cb8261a725e2c29f82
 //Retorna al Inicio
 let volverPrincipio = () => {
   document.getElementById("contenedor1").style.display = "";
   document.getElementById("contenedor2").style.display = "none";
   document.getElementById("contenedor3").style.display = "none";
 };
-<<<<<<< HEAD
 document.getElementById("retornar").addEventListener("click", volverPrincipio, false);
-=======
-document.getElementById("retornar").addEventListener("click", volverPrincipio, false);
-
-
-}
-
->>>>>>> 650e32554e5cad8175dc01cb8261a725e2c29f82
