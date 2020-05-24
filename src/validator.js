@@ -7,6 +7,7 @@ const validator = {
       gato = gato + "#";
       //console.log(gato.length);
       //console.log(gato);
+<<<<<<< HEAD
     }
     let visible = e.substring(e.length - 4);
     let mascara = gato + visible;
@@ -35,6 +36,37 @@ const validator = {
       sum = sum + ent;
       // console.log(sum);
     }
+=======
+    }
+    let visible = e.substring(e.length - 4);
+    let mascara = gato + visible;
+    //console.log("Este es el numero de tarjeta enmascarada " + mascara);
+    return mascara;
+  },
+  //Función de algoritmo de validación de tarjeta de Crédito
+  isValid: function (e) {
+    let cantidadCaracteres = e.length;
+    // console.log("Numero de caracteres " + cantidadCaracteres);
+    // console.log("Texto de la Cadena " + e);
+    let sum = 0;
+    for (let i = cantidadCaracteres - 1; i >= 0; i--) {
+      let ent = parseInt(e.charAt(i));
+      // console.log("Entero inicial es " + ent);
+      // console.log("El indice es " + i);
+      if (i % 2 == 0) {
+        ent = ent * 2;
+        //console.log("Es par el indice, ent * 2 es igual a " + ent);
+        if (ent > 9) {
+          // console.log("si ent es > que 9 entonces el valor es " + ent);
+          ent = ent - 9;
+          // console.log("Ahora ent - 9 es igual a " + ent);
+        }
+      }
+
+      sum = sum + ent;
+      // console.log(sum);
+    }
+>>>>>>> 650e32554e5cad8175dc01cb8261a725e2c29f82
     let residuo = sum % 10;
     // console.log("El residuo es " + residuo);
     if (residuo == 0) {
@@ -48,3 +80,9 @@ const validator = {
   },
 };
 export default validator;
+<<<<<<< HEAD
+=======
+
+  
+ 
+>>>>>>> 650e32554e5cad8175dc01cb8261a725e2c29f82

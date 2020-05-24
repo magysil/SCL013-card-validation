@@ -12,6 +12,7 @@
 
 /*Fondo del Cuerpo del sitio*/
 body {
+
   margin: auto;
   /* background-image: url(../imagen/fondo.jpg); */
   background: linear-gradient(rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.5) 100%),
@@ -78,10 +79,17 @@ input.btn1 {
   position: flex;
   align-content: center;
   margin-top: 50px;
+<<<<<<< HEAD
 }
 input.btn1 {
   margin: 0;
 }
+=======
+}
+input.btn1 {
+  margin: 0;
+}
+>>>>>>> 650e32554e5cad8175dc01cb8261a725e2c29f82
 
 /*Evento del Boton*/
 input.btn:hover {
@@ -123,6 +131,7 @@ nav a:hover {
   padding: 13px 18px;
 }
 
+
 /*Formato del header*/
 header .cabecera {
   display: flex;
@@ -150,11 +159,18 @@ h1 {
 .bienvenida{
   margin-top: 160px;
 }
+<<<<<<< HEAD
 
 
 
 /*Pie de pagina*/
 footer {
+=======
+
+/*Pie de pagina*/
+footer {
+
+>>>>>>> 650e32554e5cad8175dc01cb8261a725e2c29f82
   font-size: 15px;
   background-color: #000000;
   padding: 20px;
@@ -167,6 +183,7 @@ footer {
   width: 100%;
   height: auto;
   align-self: flex-end;
+<<<<<<< HEAD
 }
 
 .footer p {
@@ -174,12 +191,24 @@ footer {
   padding-right: 98px;
 }
 
+=======
+}
+
+.footer p {
+  color: #fff;
+  padding-right: 98px;
+}
+
+>>>>>>> 650e32554e5cad8175dc01cb8261a725e2c29f82
 .contenedor1,
 .contenedor3 {
   padding: 10px;
   text-align: center;
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> 650e32554e5cad8175dc01cb8261a725e2c29f82
 /*Letra de los botones*/
 nav a,
 input .btn {
